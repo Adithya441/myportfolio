@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact </a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text-1">Hello, my name is </div>
+            <div class="text-2">Chalumuri Adithya</div>
+            <div class="text-3">And I'm a <span>Software Developer</span></div>
+            <a href="img/resume.pdf" download>My Resume</a>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="img/profile.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Hello! I'm Adithya,I am a fourth-year Electronics and Communication Engineering undergraduate who is highly organized and hardworking.I am currently seeking opportunities to further enhance my skills and knowledge, and to be a valuable addition to a dynamic team that works towards the growth of an organization.Seeking a challenging and rewarding opportunity with an organization which recognizes and utilizes my true potential while helping me achieve a growth in my technical, managerial and communication skills and achieve my goal of attaining excellence and contribution towards the organization.</p>
+              <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                      <li><span>Back-End Technology</span><br>C,C++,Python,DSA,JavaScript</li>
+                      <li><span>Front-End Technology</span><br>Html,Css</li>
+                      <li><span>DataBase</span><br>MongoDB</li>
+                  </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020-Present</span><br>B-Tech from Vignan's institute of information technology</li>
+                    <li><span>2018-2020</span><br>Intermediate from Sri Gayatri Junior College</li>
+                    <li><span>2017-2018</span><br>Schooling from NRI's Indian Springs</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="Portfolio">
+        <h2>Portfolio</h2>
+        <div class="container porfolio-container">
+          <div class="project">
+            <img src="img/calci-1.webp" alt="">
+            <h4>Basic Calculator</h4>
+            <p>
+              A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.
+            </p>
+            <div class="project-action">
+              <a href="https://adithya441.github.io/calci/" class="button"><button>Demo</button></a>              
+              <a href="https://github.com/Adithya441/calci.git" class="button"><button>GitHub</button></a>            
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/numguess.jpg" alt="">
+            <h4>Number Guessing Game</h4>
+            <p>
+              Here, a number is randomly generated and it is compared with the user input.
+              If the user input is less or higher than the number that is generated, than the output is printed as low or higher respectively, based on
+              that the user have to guess the number. 
+            </p>
+            <div class="project-action">
+              <a href="" class="button"><button>Demo</button></a>              
+              <a href="" class="button"><button>GitHub</button></a>            
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/dictionary-1.jpg" alt="">
+            <h4>Dictionary</h4>
+            <p>
+              A book that lists terms in a language in alphabetical order and
+              explains what each word means in the same or another language.
+              In our dictionary app, we have used the dictionary API to retrieve
+              the definition of any term
+            </p>
+            <div class="project-action">
+              <a href="https://adithya441.github.io/Dictionary/" class="button"><button>Demo</button></a>              
+              <a href="https://github.com/Adithya441/Dictionary.git" class="button"><button>GitHub</button></a>            
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/g-3.webp" alt="">
+            <h4>Tic Tac Toe Game</h4>
+            <p>
+              Tic-tac-toe is a classic game that is commonly played among young children and is known for its simple rules. It is played by two people who take turns marking on X or an O on a 3x3 grid. The first person to mark three of their signs in a horizontal, vertical, or diagonal row is the winner.
+            </p>
+            <div class="project-action">
+              <a href="https://adithya441.github.io/tictactoe/" class="button"><button>Demo</button></a>              
+              <a href="https://github.com/Adithya441/tictactoe.git" class="button"><button>GitHub</button></a>            
+            </div>
+          </div>
+          <!--
+          <div class="project">
+            <img src="img/calci-1.webp" alt="">
+            <h4>Basic Calculator</h4>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            cupiditate quos ipsa impedit ullam laudantium nobis aliquam inventore
+            facilis repellat.
+            </p>
+            <div class="project-action">
+              <a href="https://adithya441.github.io/calci/" class="button"><button>Demo</button></a>              
+              <a href="https://github.com/Adithya441/calci.git" class="button"><button>Visit GitHub</button></a>            
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/calci-1.webp" alt="">
+            <h4>Basic Calculator</h4>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            cupiditate quos ipsa impedit ullam laudantium nobis aliquam inventore
+            facilis repellat.
+            </p>
+            <div class="project-action">
+              <a href="https://adithya441.github.io/calci/" class="button"><button>Demo</button></a>              
+              <a href="https://github.com/Adithya441/calci.git" class="button"><button>Visit GitHub</button></a>            
+            </div>
+          </div>-->
+        </div>
+      </section>
+      <hr>
+      <br>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fas fa-paper-plane"></i>adithyachalumuri733@gmail.com</p>
+              <p><i class="fas fa-phone-square-alt"></i>8978701678</p>
+              <div class="social-icons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwri3SJhPj1kbX-OIley1RNuvfJe1nBmqWoewEsU7XMPejVkk2zdTOktV_YX-3zvSUt/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+            msg.innerHTML = "msg sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
